@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1276349079242400}
+  m_IsPrefabParent: 1
+--- !u!1 &1276349079242400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4369050514198578}
+  - component: {fileID: 114518013825592026}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4369050514198578
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276349079242400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114518013825592026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276349079242400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37de2b4eaa7c734d810af060d0b040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: menu_button
+    clip: {fileID: 8300000, guid: 6347c4540119af74894319f371c90bc5, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 0.233
+    pitch: 0.5
+    sourse: {fileID: 0}
+  - name: gui_button
+    clip: {fileID: 8300000, guid: 47d0f01f1f8833746b810704ec6e8c76, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 0.5
+    pitch: 0.5
+    sourse: {fileID: 0}
+  - name: builded
+    clip: {fileID: 8300000, guid: 0f20a6436e046574b99100027d5d460c, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 0.5
+    pitch: 0.5
+    sourse: {fileID: 0}
+  - name: fire_canhao
+    clip: {fileID: 8300000, guid: 25a303a67e9290949b0029946f8ca0cb, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 0.5
+    pitch: 1.57
+    sourse: {fileID: 0}
+  - name: fire_catapulta
+    clip: {fileID: 8300000, guid: bdb9c38a902ffdc4eb8a051f53d8512d, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 0.5
+    pitch: 1.62
+    sourse: {fileID: 0}
+  - name: fire_molho
+    clip: {fileID: 8300000, guid: c324c86e50c739e46a6251ceb27f0b3f, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 0.5
+    pitch: 0.5
+    sourse: {fileID: 0}
+  - name: hit
+    clip: {fileID: 8300000, guid: e1f9ecc304c47c64b9b3e0800ace2fbf, type: 3}
+    isMusic: 0
+    isSFX: 1
+    loop: 0
+    volume: 0.5
+    pitch: 0.5
+    sourse: {fileID: 0}
+  - name: music
+    clip: {fileID: 8300000, guid: c055cd5e9ece4314e91f6edc26a2c083, type: 3}
+    isMusic: 1
+    isSFX: 0
+    loop: 1
+    volume: 0.5
+    pitch: 1.53
+    sourse: {fileID: 0}
